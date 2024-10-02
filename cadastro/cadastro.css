@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+.Readiin-Color-Palette-v3-1-hex { color: #EA0E16; }
+.Readiin-Color-Palette-v3-2-hex { color: #170920; }
+.Readiin-Color-Palette-v3-3-hex { color: #31153E; }
+.Readiin-Color-Palette-v3-4-hex { color: #431D52; }
+.Readiin-Color-Palette-v3-5-hex { color: #7A6A85; }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+}
+
+body {
+    height: 90dvh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c0510;
+    padding: 1em 4em;
+    width: 100%; 
+    height: 10dvh;
+    
+}
+
+header img {
+    height: 2.5em;
+    box-shadow: 0px 8px 40px #00000062;
+}
+
+.input-container input {
+    height: 3em;
+    width: 30em;
+    border-radius: 15px;
+    padding: 1em 1.5em;
+    outline: none;
+    border: none;
+    background-color: #170920;
+    box-shadow: 0px 8px 30px #000000e9;
+    color: #e3cdf1;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3em;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #31153E;
+    font-weight: 500;
+}
+
+.nav-btn:hover {
+    color: #EA0E16;
+    transform: scale(1);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90dvh;
+    background-color: #170920;
+}
+
+.left-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.left-div h1 {
+    color: #EA0E16;
+    font-weight: 600;
+}
+
+.left-div h2 {
+    color: #EA0E16;
+    font-weight: 400;
+}
+
+.left-div p {
+    margin-top: 1em;
+    color: #7A6A85;
+}
+
+.left-div img {
+    height: 60%;
+    margin-top: 1em;
+}
+
+.right-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.cadastro-card {
+    width: 60%;
+    background-color: #31153E;
+    box-shadow: 0px 10px 40px #0000008e;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 2em 0em;
+    overflow: hidden;
+    cursor: default;
+}
+
+.cadastro-card h2 {
+    color: #EA0E16;
+    font-weight: 600;
+    text-shadow: 0px 4px 40px #00000089;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.textfield {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textfield input {
+    width: 100%;
+    height: 3em;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #431D52;
+    color: #e3cdf1;
+    font-size: 12pt;
+    font-weight: 400;
+    box-shadow: 0px 10px 30px #00000062;
+}
+
+.textfield input:focus {
+    border: 5px;
+    border-width: 5px;
+    border-color: #170920;
+}
+
+.textfield label {
+    color: #7A6A85;
+    margin-bottom: .7em;
+}
+
+.cadastro-card button {
+    margin-top: 1em;
+    width: 30%;
+    height: 2em;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #EA0E16;
+    color: #31153E;
+    box-shadow: 0px 5px 40px -12px #ea0e15de;
+    transition: transform .5s ease;
+}
+
+.cadastro-card button:hover {
+    transform: scale(1.08);
+}
+
+.cadastro-card p {
+    margin-top: 1em;
+    color: #170920;
+}
+
+.cadastro-card a {
+    color: #7A6A85;
+}
+
+.cadastro-card a:hover {
+    color: #EA0E16;
+}
