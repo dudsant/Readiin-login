@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Fredoka", sans-serif;
+        }
+        
+        body {
+            background-color: #170920;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100dvh;
+        }
+        
+        .buttons {
+            background-color: #31153E;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            border-radius: 15px;
+            height: 40%;
+            width: 350px;
+            box-shadow: 0px 10px 40px #000000ba;
+            overflow: hidden;
+        }
+
+        .buttons img {
+            height: 2em;
+            width: 100%;
+            padding: .6em;
+            box-shadow: 0px 5px 20px #00000086;
+            background-color: #0c0510;
+        }
+
+        .btn {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+        }
+
+        .btn button {
+            margin-top: 1em;
+            width: 7em;
+            height: 2em;
+            border: none;
+            border-radius: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            background-color: #EA0E16;
+            color: #31153E;
+            box-shadow: 0px 5px 40px -8px #ea0e15de;
+            transition: transform .5s ease;
+        }
+
+        .btn button:hover {
+            transform: scale(1.08);
+        }
+
+    </style>
+
+    <title>Login e Cadastro Readiin</title>
+</head>
+<body>
+    <div class="buttons">
+        <img src="images/readiin-logo.svg" alt="">
+        <div class="btn">
+            <a href="login/login.html"><button class="login">Login</button></a>
+            <a href="cadastro/cadastro.html"><button class="cadastro">Cadastrar-se</button></a>
+        </div>
+    </div>
+</body>
+</html>
