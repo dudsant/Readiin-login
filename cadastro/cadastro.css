@@ -12,6 +12,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Fredoka", sans-serif;
+    flex-wrap: wrap;
 }
 
 body {
@@ -69,6 +70,7 @@ main {
     align-items: center;
     height: 90dvh;
     background-color: #170920;
+    flex-wrap: wrap;
 }
 
 .left-div {
